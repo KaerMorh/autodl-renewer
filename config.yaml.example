@@ -1,0 +1,12 @@
+credentials:
+  phone: "your_phone_number"
+  password: "your_password"
+
+settings:
+  headless: false
+  # "chrome" 使用系统Chrome, "chromium" 使用Playwright自带浏览器
+  browser: "chrome"
+  boot_timeout_seconds: 120
+  poll_interval_seconds: 10
+  base_url: "https://www.autodl.com/console/instance/list"
+  login_url: "https://www.autodl.com/login"
